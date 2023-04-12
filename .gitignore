@@ -1,0 +1,6 @@
+*.csv
+*.ddb
+
+.pgpass
+
+README.local

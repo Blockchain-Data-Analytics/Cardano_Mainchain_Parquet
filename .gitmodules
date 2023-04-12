@@ -1,0 +1,6 @@
+[submodule "ext/data-analytics-bigquery.git"]
+	path = ext/data-analytics-bigquery.git
+	url = https://github.com/input-output-hk/data-analytics-bigquery.git
+[submodule "ext/duckdb.git"]
+	path = ext/duckdb.git
+	url = https://github.com/duckdb/duckdb.git
