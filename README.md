@@ -1,3 +1,14 @@
+# Extract Cardano on-chain data to Parquet files
+
+[Db-sync](https://github.com/input-output-hk/cardano-db-sync) maps on-chain data for the Cardano blockchain to PostgreSQL.
+
+For extended use cases, instead of querying the database directly we would like to use a computer cluster to run such queries in parallel at MaxSpeed&trade;.
+
+We already provided an export to [BigQuery](https://github.com/input-output-hk/data-analytics-bigquery) on Google's cloud. But this comes with a cost.
+
+Instead, this project let's you export Db-sync's tables to Parquet files which can be queried locally on your machine or in your local network using many computers.
+
+We use [duckdb](https://duckdb.org/) to output Parquet files which can be queried using _duckdb_ or [Spark SQL](https://spark.apache.org/sql/).
 
 ## snapshot
 
